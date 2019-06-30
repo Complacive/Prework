@@ -1,0 +1,88 @@
+body {
+    margin : 0;
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size : 15px;
+    color : steelblue;
+    line-height : 2.0;
+}
+
+#me {
+    background-image : url('../img/background.jpg');
+    height : 100vh;
+    background-size : cover;
+    background-position : center;
+    padding: 0 15px;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items: center;
+    text-align: center;
+}
+
+#me .button {
+    font-size: 15px;
+    color: steelblue;
+    margin-top: 15px;
+    text-decoration: none;
+    border: 0.5px solid steelblue;
+    padding: 1.5px 10px;
+    border-radius: 5px;
+}
+
+#me .button:hover {
+    color: antiquewhite;
+    background: steelblue;
+}
+
+#me h1 {
+    font-size: 40px;
+}
+
+#me p {
+    font-size: 15px;
+}
+
+#p1 {
+    display: flex;
+    text-align: center;
+}
+
+#p1 .word1 {
+    font-size: 15px;
+    text-align: center;
+    background: steelblue;
+    color: antiquewhite;
+    padding: 15px;
+}
+
+#p1 .word2 {
+    font-size: 15px;
+    text-align: center;
+    background: lightsteelblue;
+    color: white;
+    padding: 15px;
+}
+
+#p3 {
+    display: flex;
+    text-align: center;
+}
+
+#p3 .column1 {
+    background: lightsteelblue;
+    color: white;
+    float: left;
+    width: 50%;
+}
+
+#p3 .column2 {
+    background: steelblue;
+    color: antiquewhite;
+    float: left;
+    width: 50%;
+}
+
+*{
+    margin : 0;
+    padding : 0;
+}
